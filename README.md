@@ -64,7 +64,7 @@ The same totals were reproduced in Python, SQL and Power BI as a cross-check.
 
 | Filtered to 2025 | 2025 + Accessories + Isfahan |
 |---|---|
-| ![2025]!(./PBI%20dashboard.2.png)| ![Filtered](./PBI%20dashboard.3.png) |
+| ![2025](./PBI%20dashboard.2.png)| ![Filtered](./PBI%20dashboard.3.png) |
 
 ## SQL Analysis
 Queries cover KPIs, date range, category revenue share, best-selling product per category (`RANK() OVER (PARTITION BY ...)`), average discount by product, segment revenue and AOV, top customers, payment methods, discount slabs (`CASE WHEN`) and city-wise revenue.
