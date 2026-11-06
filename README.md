@@ -69,27 +69,18 @@ The same totals were reproduced in Python, SQL and Power BI as a cross-check.
 ## SQL Analysis
 Queries cover KPIs, date range, category revenue share, best-selling product per category (`RANK() OVER (PARTITION BY ...)`), average discount by product, segment revenue and AOV, top customers, payment methods, discount slabs (`CASE WHEN`) and city-wise revenue.
 
-## Repository Structure
-```
-ecommerce-sales-analysis/
-├── data/        raw CSV files and final_data.csv
-├── notebook/    python_analysis_ecommerce.ipynb
-├── sql/         sql_analysis_ecommerce.sql
-├── powerbi/     ecommerce_dashboard.pbix and dashboard screenshots
-└── README.md
-```
+
 
 ## Assumptions and Limitations
 - Revenue is based on Completed and Paid orders only.
 - Missing ages were filled with the median, so age-based analysis is partly estimated.
 - 2026 contains only six months of data, so year-over-year comparison with 2026 is not like-for-like.
 
-## Next Steps
-- Month-over-month growth with `LAG()` and running totals with window functions
-- RFM customer segmentation
-- Investigate the drop in revenue after Feb 2026
+
 
 ## Author
 **Bhavya Singh**
-B.Tech CSE student, aspiring Business Analyst
-LinkedIn: _add your profile link here_
+B.Tech CSE student,
+LinkedIn:www.linkedin.com/in/bhavyasingh05
+
+
