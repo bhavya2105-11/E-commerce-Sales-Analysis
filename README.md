@@ -2,7 +2,7 @@
 
 An end-to-end data analytics project: raw data is cleaned and analysed in **Python**, queried in **PostgreSQL**, and presented in an interactive **Power BI** dashboard.
 
-![Dashboard overview]"(C:\Users\bhavy\OneDrive\Pictures\PBI dashboard.1.png")
+![Dashboard Overview](./PBIdashboard.1.png)
 
 ## Project Objective
 To understand how an online store is performing: how much revenue it earns, which products, categories, cities and customer segments drive it, and where revenue is being lost (cancellations, returns, failed payments and discounts).
