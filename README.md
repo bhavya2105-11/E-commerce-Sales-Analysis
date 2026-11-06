@@ -51,10 +51,12 @@ The same totals were reproduced in Python, SQL and Power BI as a cross-check.
 - **Tehran** is the top city (about 823K), followed by Mashhad, Karaj and Isfahan.
 - **Gateway** payments make up about **47.5%** of orders, followed by CardToCard (24%) and Wallet (17%). Only about 10% of orders are paid in cash.
 - **Regular** and **New** customers generate about 90% of revenue. **VIP** customers contribute under 10% and do not have a higher AOV, so the VIP programme may need a review.
+- **Customers aged 36 to 50** contribute the most revenue (about 967K, around 32% of the total), followed by the 50+ group (about 895K). Together, customers aged 36 and above generate about 62% of revenue.
 - **Discounts do not raise order value.** AOV falls from about 74.6 (no discount) to about 59.5 (20%+ discount), and the largest share of orders (35%) comes without any discount.
 - Average discount is fairly uniform across products (about 7.5% to 8.1%).
-- Monthly revenue stayed around 95K to 115K through 2025, then **dropped sharply in Feb 2026** (about 108K to 64K) and stayed lower. Note that 2026 has only Jan to Jun data.
-
+- Monthly revenue stayed around 95K to 115K through 2025(Note that 2026 has only Jan to Jun data).
+- Revenue peaked in **March 2024 (114.2K)** and was lowest in **February 2026 (64.5K)**.
+  
 ## Dashboard Features
 - KPI cards: Total Revenue, Quantity, Orders, AOV, Customers
 - Slicers: order date, category, city
