@@ -2,7 +2,7 @@
 
 An end-to-end data analytics project: raw data is cleaned and analysed in **Python**, queried in **PostgreSQL**, and presented in an interactive **Power BI** dashboard.
 
-![Dashboard overview](powerbi/dashboard_overview.png)
+![Dashboard overview](PBIdashboard.1.png)
 
 ## Project Objective
 To understand how an online store is performing: how much revenue it earns, which products, categories, cities and customer segments drive it, and where revenue is being lost (cancellations, returns, failed payments and discounts).
@@ -64,7 +64,7 @@ The same totals were reproduced in Python, SQL and Power BI as a cross-check.
 
 | Filtered to 2025 | 2025 + Accessories + Isfahan |
 |---|---|
-| ![2025](powerbi/dashboard_2025.png) | ![Filtered](powerbi/dashboard_filtered.png) |
+| ![2025](PBIdashboard.2.png) | ![Filtered](PBIdashboard.3.png) |
 
 ## SQL Analysis
 Queries cover KPIs, date range, category revenue share, best-selling product per category (`RANK() OVER (PARTITION BY ...)`), average discount by product, segment revenue and AOV, top customers, payment methods, discount slabs (`CASE WHEN`) and city-wise revenue.
